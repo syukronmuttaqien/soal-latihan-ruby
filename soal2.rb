@@ -8,6 +8,15 @@ def kelompokan(angka)
   # =================================
   # Area Kode Kode di sini
 
+  # cek = angka % 2 
+  # if cek == 0
+  #   @kelompokBilanganGenap.push angka
+  # else  
+  #   @kelompokBilanganGanjil.push angka
+  # end
+
+@kelompokBilanganGanjil.push(angka) if angka.odd? == true
+@kelompokBilanganGenap.push(angka) if angka.even? == true
 
 
   # =================================
