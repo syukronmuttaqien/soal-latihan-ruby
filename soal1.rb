@@ -2,13 +2,16 @@
 # Contoh
 # 63 = 1:03 (Satu menit tiga detik)
 
-def konversiMenit(menit) 
-  # =================================
-  # Area Kode Kode di sini
+def konversiMenit(menit)
+  
+  detik = menit % 60
+  menit = menit / 60
 
-
-
-  # =================================
+  if detik < 10
+    puts "#{menit} : 0#{detik}"
+  else
+    puts "#{menit} : #{detik}"
+  end
 end
 
 # Hasilnya harus seperti di bawah. contoh: 0:32
