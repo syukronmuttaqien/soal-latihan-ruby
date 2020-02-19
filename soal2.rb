@@ -7,8 +7,16 @@
 def kelompokan(angka) 
   # =================================
   # Area Kode Kode di sini
+nilai = angka % 2
+if nilai == 1
+  @kelompokBilanganGanjil.push(angka)
+else
+  @kelompokBilanganGenap.push(angka)
+end
 
-
+#cara 2
+# @kelompokBilanganGanjil.push (angka) if angka.odd? ==true
+# @kelompokBilanganGenap.push (angka) if angka.even? == true
 
   # =================================
 end
