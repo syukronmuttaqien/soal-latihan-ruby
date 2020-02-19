@@ -2,14 +2,12 @@
 # Contoh
 # 63 = 1:03 (Satu menit tiga detik)
 
-def konversiMenit(menit) {
+def konversiMenit(menit) 
   # =================================
   # Area Kode Kode di sini
-
-
-
+  puts"Hasil Konversi #{menit/60}:#{menit%60}"
   # =================================
-}
+end
 
 # Hasilnya harus seperti di bawah. contoh: 0:32
 konversiMenit(32) # 0:32
