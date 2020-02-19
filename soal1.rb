@@ -2,11 +2,7 @@
 # Contoh
 # 63 = 1:03 (Satu menit tiga detik)
 
-<<<<<<< HEAD
-def konversiMenit(menit) 
-=======
 def konversiMenit(menit)
->>>>>>> bismillah
   # =================================
   # Area Kode Kode di sini
     # puts menit
@@ -35,10 +31,6 @@ def konversiMenit(menit)
 
   # =================================
 end
-<<<<<<< HEAD
-=======
-
->>>>>>> bismillah
 
 # Hasilnya harus seperti di bawah. contoh: 0:32
 konversiMenit(32) # 0:32
