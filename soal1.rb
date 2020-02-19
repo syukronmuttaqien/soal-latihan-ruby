@@ -5,9 +5,8 @@
 def konversiMenit(menit) 
   # =================================
   # Area Kode Kode di sini
-
-
-
+puts "konversiMenit #{menit/60}:0#{menit%60}"if(menit%60<10)
+puts "konversiMenit #{menit/60}:#{menit%60}"if(menit%60>=10)
   # =================================
 end
 
