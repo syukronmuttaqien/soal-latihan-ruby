@@ -8,7 +8,7 @@ def konversiMenit(menit)
   detik = menit % 60
   menit = menit / 60
   
-  detik = "0#{detik}" if detik <= 10
+  detik = "0#{detik}" if detik <= 9
   puts "#{menit}:#{detik}"
   # =================================
 end
