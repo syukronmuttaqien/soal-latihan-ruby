@@ -13,6 +13,10 @@ def konversiMenit(menit)
   
 
   # =================================
+<<<<<<< HEAD
+=======
+end
+>>>>>>> 50951fb64636679361e8bd27242482a27becbded
 
 end
 # Hasilnya harus seperti di bawah. contoh: 0:32
