@@ -1,8 +1,8 @@
 # Konversi Menit ke Jam
 # Contoh
 # 63 = 1:03 (Satu menit tiga detik)
-kelompokBilanganGanjil = []
-kelompokBilanganGenap = []
+@kelompokBilanganGanjil = []
+@kelompokBilanganGenap = []
 
 def kelompokan(angka) 
   # =================================
@@ -21,5 +21,5 @@ kelompokan(211)
 kelompokan(1782) 
 kelompokan(1761)
 
-puts "#{kelompokBilanganGanjil}" #[13,211,1761]
-puts "#{kelompokBilanganGenap}" #[16,18,1782]
+puts "#{@kelompokBilanganGanjil}" #[13,211,1761]
+puts "#{@kelompokBilanganGenap}" #[16,18,1782]
