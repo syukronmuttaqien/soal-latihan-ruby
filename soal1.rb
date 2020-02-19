@@ -5,7 +5,11 @@
 def konversiMenit(menit) 
   # =================================
   # Area Kode Kode di sini
+  if(menit%60<10)
+  puts"Hasil Konversi #{menit/60}:0#{menit%60}"
+  else
   puts"Hasil Konversi #{menit/60}:#{menit%60}"
+  end
   # =================================
 end
 
