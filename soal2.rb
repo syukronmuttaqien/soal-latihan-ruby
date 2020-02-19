@@ -4,9 +4,12 @@
 @kelompokBilanganGanjil = []
 @kelompokBilanganGenap = []
 
-def kelompokan(angka) 
+def kelompokan(number) 
   # =================================
   # Area Kode Kode di sini
+  @kelompokBilanganGanjil.push(number) if number.odd? == true
+
+  @kelompokBilanganGenap.push(number) if number.even? == true
 
 
 
