@@ -9,7 +9,7 @@ def konversiMenit(menit)
   puts"Hasil Konversi #{menit/60}:0#{menit%60}"if(menit%60<10)
   puts"============================================================="
   puts"Hasil Konversi #{menit/60}:#{menit%60}"if(menit%60>=10)
-  puts"============================================================="
+  
 
   # =================================
 end
