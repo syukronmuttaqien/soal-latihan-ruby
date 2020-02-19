@@ -5,11 +5,18 @@
 def konversiMenit(menit) 
   # =================================
   # Area Kode Kode di sini
+  detik = menit % 60
+  menit = menit / 60
+  detik = "0#{detik}" if detik < 10
+    "#{menit}:#{detik}"
+end
 
-
+puts konversiMenit(32)
+puts konversiMenit(63)
+puts konversiMenit(133)
+puts konversiMenit(200)
 
   # =================================
-end
 
 # Hasilnya harus seperti di bawah. contoh: 0:32
 konversiMenit(32) # 0:32
