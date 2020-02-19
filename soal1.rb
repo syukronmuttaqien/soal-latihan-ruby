@@ -1,14 +1,12 @@
 # Konversi Menit ke Jam
 # Contoh
 # 63 = 1:03 (Satu menit tiga detik)
+def konversiMenit(menit)
+  detik = menit % 60
+  menit = menit / 60
 
-def konversiMenit(menit) 
-  # =================================
-  # Area Kode Kode di sini
-
-
-
-  # =================================
+  detik = "0#{detik}" if detik < 10
+  puts "#{menit}:#{detik}"
 end
 
 # Hasilnya harus seperti di bawah. contoh: 0:32
