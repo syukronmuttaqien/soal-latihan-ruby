@@ -7,7 +7,11 @@
 def kelompokan(angka) 
   # =================================
   # Area Kode Kode di sini
-
+  if angka % 2 == 0
+    @kelompokBilanganGenap.push("#{angka}")
+  else
+    @kelompokBilanganGanjil.push("#{angka}")
+  end
 
 
   # =================================
